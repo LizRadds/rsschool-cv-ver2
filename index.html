@@ -1,4 +1,105 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <style>
+        body {
+            min-height: 100vh;
+            margin: 0; 
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    </style>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
 </head>
+<body>
+    <header class = "main-header"> 
+        <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+              <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+              <li class="nav-item"><a href="#code" class="nav-link">Skills</a></li>
+              <li class="nav-item"><a href="#courses" class="nav-link">Courses</a> </li>
+              <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+              <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+              <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+              <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+
+            </ul>
+        </nav>
+        <div class="container">
+            <img src="./assets/img/image.jpg" alt="my photo">
+            <h1 class="name">LIZAVETA HORBIK</h1>
+            <p class="regular-text">Junior software developer</p>
+        </div>
+    </header>
+    <main class="main-container">
+        <div class="container">
+            <section class="section" id="profile">
+                <h2 class="section-title">...</h2>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <p class="regular-text">Location: Poland</p>
+                <p class="regular-text">e-mail: somebody@gmail.com</p>
+                <p class="regular-text">GitHub: LizRadds</p>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p class="regular-text">I’m the coding beginner.</p>
+            </section>
+            <section class="section" id="skills">
+             <h2 class="section-title">Skills</h2>
+             <ul class="regular-text">
+                <li>HTML</li>
+                <li>Git/GitHub</li>
+            </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <p class="regular-text">Code example will be there soon…</p>
+                <p class="regular-text">function multiply (a, b) {
+                    return a * b; </p>
+            </section>
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <p class="regular-text">Will be here soon...</p>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+            </section>
+            <section class="section" id="experience">
+                <h2 class="section-title">Experience</h2>
+                <p class="regular-text">No experience in programming yet.</p>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul class="regular-text">
+                    <li>English: B1/B2</li>
+                    <li>Polish: C1</li>
+                    <li>Belarussian: Native</li>
+                    <li>Russian: Native</li>
+                    <li>German A1/A2</li>
+                </ul>
+
+            </section>
+        </div>
+    </main>
+    <footer class="foot-container">
+        <div class="container"></div>
+    </footer>
+    
+    
+</body>
+</html>
