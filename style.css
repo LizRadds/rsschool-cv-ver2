@@ -16,7 +16,7 @@ body font-family: 'OpenSans', sans-serif;
 }
 * {
     box-sizing: border-box;
-    border: 1px solid red;
+    border: 0px solid red;
   }
 .container {
     max-width: 1440px;
@@ -61,9 +61,15 @@ html {
 
 
   .section-title {
-    font-size: 20px;
+    font-size: 45px;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 5px;
     color: #0da399;
   }
+.regular-text{
+    font-size: 25px;
+    font-weight: 250;
+    color: blue;
+    font-family: 'OpenSans', sans-serif;
+}
