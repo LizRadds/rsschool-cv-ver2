@@ -2,7 +2,14 @@
     margin: 0;
     padding: 0;
 }
-body font-family: 'OpenSans', sans-serif;
+body font-family: 'OpenSans', sans-serif;{
+  margin: 10px;
+  padding: 5px;
+}
+main{
+  margin-left: 50px;
+  margin-top: 25px;
+}
 
 @font-face {
     font-family: 'OpenSans';
@@ -18,22 +25,45 @@ body font-family: 'OpenSans', sans-serif;
     box-sizing: border-box;
     border: 0px solid red;
   }
-.container {
-    max-width: 1440px;
-    margin: 10px auto;
-  }
+.name{
+  display: flexbox;
+  flex-wrap: wrap;
 
+}
+.nav{
+  background-color: aqua;
+  padding: 0;
+  margin: 0;
+}
 .nav-list {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     list-style: none;
+    font-family: 'OpenSansBold', serif;
 }
 .nav-link {
-    padding: 0 15px;
+    color: #0da399;
+    padding: 0 8px;
     line-height: 50px;
     transition: .3s;
-    font-family: 'OpenSans', sans-serif;
+    font-family: 'OpenSansBold', serif;
+
+.container-profile{
+  display: flex;
+  align-items: flex-start;
+ 
+}
+
+.container {
+    max-width: 1440px;
+    margin: 5px auto;
+  }
+
+.photo{
+  display: flexbox;
+  margin: 5%;
+}
 }
 html {
     scroll-behavior: smooth; 
@@ -62,6 +92,19 @@ html {
     color: rgb(16, 44, 80);
     font-family: 'OpenSans', sans-serif;
 }
+
+.regular-text-code{
+  display: flexbox;
+  background-color: #c3e0c7;
+  width: fit-content;
+  font-size: 25px;
+    font-weight: 250;
+    color: rgb(16, 44, 80);
+    font-family: 'OpenSans', sans-serif;
+    margin: 5%;
+
+}
+
 .section-title {
     font-size: 45px;
     font-weight: 400;
@@ -75,4 +118,12 @@ html {
     font-weight: 250;
     color: rgb(16, 44, 80);
     font-family: 'OpenSansBold', sans-serif;
+}
+.school-logo{
+  height: 50px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.foot-container{
+  display: flexbox;
 }
