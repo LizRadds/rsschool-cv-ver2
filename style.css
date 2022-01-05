@@ -143,18 +143,23 @@ html {
 .foot-container{
   display: flex;
   margin-top: 50px;
-  margin-left: 45px;
-  margin-right: 50px;
+  padding-top: 10px;
+
+  margin-bottom: 0;
+  background-color: aqua;
   
 }
 
 .footer-text{
   display: flex;
-  padding: 5%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 15px;
   font-size: 20px;
   font-weight: 250;
   color: rgb(16, 44, 80);
   font-family: 'OpenSans', sans-serif;
+  height: 45px;
 }
 .school-logo{
   height: 70px;
