@@ -9,7 +9,7 @@
         body {
             min-height: 100vh;
             margin-left: 0px;
-            padding: 0, 5px;
+            padding: 0;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -39,14 +39,11 @@
         
     </header>
     <main class="main-container">
-        <div class="container-profile">
-            <img class="photo" src="./assets/img/image.jpg" alt="my photo">
-            <h1 class="name">LIZAVETA HORBIK</h1>
-            <div class="regular-text">Junior software developer</div>
-        </div>
         <div class="container">
             <section class="section" id="profile">
-                <h2 class="section-title"></h2>
+                <img class="photo" src="./assets/img/image.jpg" alt="my photo">
+                <h1 class="section-title">LIZAVETA HORBIK</h1>
+                <div class="regular-text">Junior software developer</div>
             </section>
             <section class="section" id="contacts">
                 <h2 class="section-title">Contacts</h2>
@@ -69,8 +66,10 @@
                 <h2 class="section-title">Code</h2>
                 <p class="regular-text">Code example will be there soon…</p>
                 <div class="regular-text-code">
-                    <div>function multiply (a, b) {</div>
-                    <div>return a * b; </div>
+                    <p>function multiply (a, b) {</p>
+                    <p>return a * b; </p>
+                    <p>}</p>
+                </div>
             </section>
             <section class="section" id="courses">
                 <h2 class="section-title">Courses</h2>
@@ -79,6 +78,10 @@
             <section class="section" id="projects">
                 <h2 class="section-title">Projects</h2>
                 <p class="regular-text">Will be here soon...</p>
+                <ul class="regular-text">
+                    <li><a href="https://lizradds.github.io/rsschool-cv/cv">CV Markup</a></li>
+                    
+                </ul>
             </section>
             <section class="section" id="education">
                 <h2 class="section-title">Education</h2>
@@ -103,9 +106,10 @@
         </div>
     </main>
     <footer class="foot-container">
-        <div class="container"></div>
         <img class="school-logo" src="./assets/svg/rs_school_js.svg" alt="RS school" class="school-logo">
-        <a class="regular-text" href="https://rs.school/js/" rel="course link">course link</a>
+        <a class="footer-text" href="https://github.com/LizRadds" rel="GitHub link">GitHub</a>
+        <a class="footer-text" href="https://rs.school/js/" rel="course link">course link</a>
+        <p class="footer-text">2022</p>
     </footer>
     
     
