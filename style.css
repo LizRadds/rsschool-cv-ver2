@@ -9,7 +9,7 @@
   font-weight: 300;
 }
 :visited{
-  color:#4f4f4f;
+  color:#afa486;
   font-weight: bold;
 }
 body{
@@ -21,7 +21,7 @@ body{
   justify-content: space-between;
   width: auto;
   font-family: 'OpenSans', sans-serif;
-  background-color: rgb(84, 84, 84);
+  background-color: rgb(130, 130, 130);
   background-size: 100%;
 }
 *{
