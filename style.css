@@ -3,14 +3,13 @@
   src: url("./assets/fonts/OpenSans-Regular.ttf");
   font-weight: 100;
 }
-
 @font-face{
   font-family: 'OpenSansBold';
   src: url("./assets/fonts/OpenSans-Bold.ttf");
   font-weight: 300;
 }
 :visited{
-  color:#694a23;
+  color:#afa486;
   font-weight: bold;
 }
 body{
@@ -22,7 +21,7 @@ body{
   justify-content: space-between;
   width: auto;
   font-family: 'OpenSans', sans-serif;
-  background-color: rgb(84, 84, 84);
+  background-color: rgb(130, 130, 130);
   background-size: 100%;
 }
 *{
@@ -126,7 +125,7 @@ html {
 .name{
   font-size: 60px;
   font-weight: 250;
-  color: rgb(16, 44, 80);
+  color: rgb(0, 0, 0);
   font-family: 'OpenSansBold', sans-serif;
 }
 .foot-container{
