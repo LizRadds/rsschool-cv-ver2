@@ -10,7 +10,7 @@
   font-weight: 300;
 }
 :visited{
-  color:#694a23;
+  color:#4f4f4f;
   font-weight: bold;
 }
 body{
@@ -126,7 +126,7 @@ html {
 .name{
   font-size: 60px;
   font-weight: 250;
-  color: rgb(16, 44, 80);
+  color: rgb(0, 0, 0);
   font-family: 'OpenSansBold', sans-serif;
 }
 .foot-container{
